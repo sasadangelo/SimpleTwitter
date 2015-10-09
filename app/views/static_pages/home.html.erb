@@ -1,5 +1,11 @@
-<% provide(:title, "Home") %>
-<h1>SimpleTwitter</h1>
-<p>
-  This is the home page for the SimpleTwitter application.
-</p>
+<div class="center jumbotron">
+  <h1>Welcome to Simple Twitter</h1>
+
+  <h2>
+    This is the home page for the <a href="https://github.com/sasadangelo/SimpleTwitter">Simple Twitter</a> sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
